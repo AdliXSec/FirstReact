@@ -1,5 +1,5 @@
 import Card from "./Components/Elements/card";
-import FormLogin from "./Components/FormLogin";
+import FormRegistrasi from "./Components/FormRegistrasi";
 import FormPesan from "./Components/FormPesan";
 
 function App() {
@@ -16,11 +16,11 @@ function App() {
       </div>
       <div className="flex justify-center min-h-screen items-center">
         <div className="w-full max-w-xs">
-          <h1 className="text-3xl font-bold mb-2 text-blue-600">Login</h1>
+          <h1 className="text-3xl font-bold mb-2 text-blue-600">Registrasi</h1>
           <p className="font-medium text-slate-500 mb-8">
             Enter your email and password
           </p>
-          <FormLogin />
+          <FormRegistrasi />
         </div>
       </div>
     </>
