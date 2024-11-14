@@ -3,7 +3,7 @@ import FormRegistrasi from "../Components/FormRegistrasi";
 
 const RegistrasiPages = () => {
   return (
-    <AuthLayouts title="Registrasi">
+    <AuthLayouts title="Registrasi" subtitle="enter your detail">
       <FormRegistrasi />
     </AuthLayouts>
   );
