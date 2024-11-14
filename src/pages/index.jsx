@@ -11,6 +11,10 @@ function App() {
           <Card title="Say something">
             <FormPesan />
           </Card>
+          <Card title="Warning">
+            Plis dilarang mengirim kata toxic dan hal yang berbau sensitif dan
+            privasi
+          </Card>
         </AuthLayouts>
         /* <Navbar />
       <div className="flex flex-col justify-center items-center text-white bg-slate-700 min-h-screen">

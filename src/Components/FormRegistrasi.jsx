@@ -19,9 +19,9 @@ const FormRegistrasi = () => {
       />
       <FormInput
         type="password"
-        placeholder="Password"
-        name="password"
-        label="password"
+        placeholder="Confirm Password"
+        name="Confirm Password"
+        label="Confirm Password"
       />
       <Button variant="bg-blue-700">Login</Button>
     </form>

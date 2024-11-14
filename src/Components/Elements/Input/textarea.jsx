@@ -6,7 +6,7 @@ const Textarea = (Type) => {
     <textarea
       className="text-black"
       name={name}
-      id=""
+      id={name}
       placeholder={placeholder}
     >
       {children}
