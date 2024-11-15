@@ -1,9 +1,16 @@
 import Button from "./Elements/Button";
-import { FormTextarea } from "./Elements/Input";
+import FormInput, { FormTextarea } from "./Elements/Input";
 
 const FormPesan = () => {
   return (
     <form>
+      <FormInput
+        type="text"
+        placeholder="nama"
+        name="nama"
+        label="nama"
+        custom="text-white mt-5"
+      />
       <FormTextarea
         name="pesan"
         label="Pesan"
